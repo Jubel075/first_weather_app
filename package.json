@@ -4,8 +4,8 @@
   "private": true,
   "description": "Halcyon weather — performance-tuned weather app (stale-while-revalidate cache, progressive paint, idle + hover prefetch). Source is JSX; the browser loads precompiled plain JS.",
   "scripts": {
-    "build": "babel src --out-dir src --extensions .jsx --out-file-extension .js && babel tweaks-panel.jsx --out-file tweaks-panel.js",
-    "watch": "babel src --out-dir src --extensions .jsx --out-file-extension .js --watch"
+    "build": "babel src --out-dir docs/src --extensions .jsx --out-file-extension .js && babel tweaks-panel.jsx --out-file docs/tweaks-panel.js",
+    "watch": "babel src --out-dir docs/src --extensions .jsx --out-file-extension .js --watch"
   },
   "devDependencies": {
     "@babel/cli": "^7.24.7",

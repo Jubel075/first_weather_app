@@ -4,4 +4,4 @@ npm-debug.log*
 
 # API keys
 .env
-src/api-key.js
+docs/api-key.js
